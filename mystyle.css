@@ -124,6 +124,7 @@
 @media screen and (max-width: 992px) {
     .navbar-nav {
       margin: 0 !important;
+      background-color: white;
     }
     .navbar-nav li a{
       padding: 10px 70px;
