@@ -7,97 +7,38 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:200,500|Sacramento" rel="stylesheet">
-  <style>    
-    /* Add a gray background color and some padding to the footer */
-    body {
-      border: 10px solid #f9e1e7;
-      font-family: Montserrat;
-      font-size: 16px;
-      font-weight: 200;
-    }
-
-    footer {
-      padding: 40px;
-    }
-    
-    #icons:hover #social{
-      opacity: 0.5;
-    }
-
-    #icons:hover #social:hover{
-      opacity: 1;
-    }
-
-    #header {
-      text-align: center;
-      padding: 50px;
-    }
-
-    .navbar {
-      background-color: white;
-      border: none;
-    }
-
-    .navbar-nav {
-      background-color: white;
-      border: none;
-      text-align: center;
-      width: 100%;
-    }
-    .navbar-default .navbar-toggle{
-      border-color: white;
-    }
-    .navbar-nav li a:hover{
-      color: #E8A3BE !important;
-      text-decoration: none;
-    }
-
-@media screen and (min-width: 750px) {
-    .navbar-nav li {
-      float: none;
-      display: inline-block;
-    }
-
-    .navbar-nav li a{
-      padding: 10px 40px;
-    }
-
-    #header-image {
-      width: 100%;
-      margin: auto;
-    }
-}
-
-  #header-image {
-    width:90%;
-    margin: auto;
-  }
-
-    a {
-      color: black;
-      text-decoration: none;
-    }
-
-    a:hover {
-      color: #E8A3BE;
-    }
-
-
-  </style>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
 </head>
 <body>
 </nav>
 
-<div class="container-fluid text-center">
+<div class="container-fluid text-center" style="width: 100%;">
   <div class="row">
-    <div id="header" class="col-sm-12">
-      <a href="index.html"><img id="social" src="faringso_konditori.png" width="200" height="auto" style="max-width: 90%; height: auto;"/></a>
+    <div id="header" class="col-md-6">
+    <a href=""><img src="faringsokonditori.png"  class="brand" width="95px" height="auto" alt="Färingsö konditori"></a>
+    </div>
+    <div id="intro" class="col-md-6">
+      <h1 style="font-family: 'Playfair Display'; font-weight: 700; font-size: 34px; letter-spacing: 1px;">Välkommen till 
+      <br/>Färingsö Konditori</h1><br>
+      <p>Vi har en tårta för alla tillfällen! Vi tillverkar även bullar och cupcakes. Vi bakar självklart allt från grunden, med väl utvalda råvaror. Se mer och inspireras under fliken Sortiment. </p>
+      <p>Färingsö konditori är ett klassiskt konditori online, vi tar gärna emot beställningar via kontaktformuläret på sidan, eller per telefon då verksamheten endast finns tillgänglig online.</p>
+      <a href="cakes.html"><button class="btn btn-default" id="sortiment">Kolla in vårt sortiment</button>
+      <footer class="container-fluid text-center">
+        <div id="icons">
+          <a href="https://www.instagram.com/faringsokonditori/" target="_blank"><img id="social" src="instagram.png" width="30" height="auto" style="margin: 5px"/></a>
+          <img id="social" src="mejl.png" width="30" height="auto" style="margin: 5px"/>
+          <a href="https://www.facebook.com/Faringsokonditori" target="_blank"><img id="social" src="ring.png" width="30" height="auto" style="margin: 5px"/></a>
+        </div>
+        <p style="padding-top: 20px; font-weight: 400; font-size: 14px;">Tel: <a href="tel: +4676 811 11 35">076 811 11 35</a></p>
+      </footer>
     </div>
   </div>
+
   <div id="menu">
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -109,45 +50,17 @@
           </button>
         </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li><a href="cakes.html">Tårtor</a></li>     
-            <li><a href="om_oss.html">Om oss</a></li>     
-            <li><a href="kontakt.html">Kontakt</a></li>      
-            <li><a href="galleri.html">Galleri</a></li>
+            <li class="navbar-right"><a href="kontakt.html">Kontakt</a></li>      
+            <li class="navbar-right"><a href="om_oss.html">Om oss</a></li>     
+            <li class="navbar-right"><a href="cakes.html">Sortiment</a></li>     
           <ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
   </div>
 </div>
-  
-<div class="container-fluid bg-3 text-center" style="width: 90%">
-  <div class="row">
-    <div class="col-sm-12">
-      <img src="frukt.jpg" class="img-responsive" id="header-image" alt="Image">
-    </div>
-    <div class="col-sm-3"></div>
-    <div class="col-sm-6">
-      <h3 style="font-family: Montserrat; text-transform: uppercase; letter-spacing: 4px; font-weight: 700; font-size: 28px;">Välkommen till 
-      <br/>Färingsö Konditori</h3><br>
-      <p>Vi har en tårta för alla tillfällen! Vi tillverkar även bullar och cupcakes. Vi bakar självklart allt från grunden, med väl utvalda råvaror. Se mer och inspireras under fliken Sortiment. </p>
-      <p>Färingsö konditori är ett klassiskt konditori online, vi tar gärna emot beställningar via kontaktformuläret på sidan, eller per telefon då verksamheten endast finns tillgänglig online.</p>
-    </div>
-   <div class="col-sm-3"></div>
-  </div>
-</div><br><br><br>
-
-
-<footer class="container-fluid text-center">
-  <div id="icons">
-    <a href="https://www.instagram.com/faringsokonditori/" target="_blank"><img id="social" src="instagram.png" width="35" height="auto" style="margin: 8px"/></a>
-    <img id="social" src="mejl.png" width="35" height="auto" style="margin: 8px"/>
-    <a href="tel: +4676 811 11 35"><img id="social" src="ring.png" width="35" height="auto" style="margin: 8px"/></a>
-  </div>
-  <p style="padding-bottom: 20px; padding-top: 20px;">Tel: <a href="tel: +4676 811 11 35">076 811 11 35</a></p>
-</footer>
 
 </body>
 </html>

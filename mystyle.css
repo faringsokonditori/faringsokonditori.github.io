@@ -1,0 +1,153 @@
+     /* Add a gray background color and some padding to the footer */
+    body {
+      font-family: 'Roboto Condensed';
+      font-size: 16px;
+      font-weight: 300;
+    }
+
+    footer {
+      padding-top: 40px;
+    }
+    
+    #icons:hover #social{
+      opacity: 0.5;
+    }
+
+    #icons:hover #social:hover{
+      opacity: 1;
+    }
+
+    #header {
+      position: relative;
+      height: 100vh;
+      padding: 0px !important;
+      background-image: url('front.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+    #intro {
+      padding: 8% !important;
+      max-height: 100vh;
+      margin: auto;
+      overflow: scroll;
+    }
+    .navbar {
+      background-color: rgba(255,255,255,0);
+      border: none;
+    }
+    #menu {
+      font-family: 'Roboto Condensed';
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: 12px;
+    }
+    .navbar-nav {
+      border: none;
+      text-align: center;
+      width: 100%;
+    }
+    .navbar-nav li a{
+      color: black !important;
+    }
+    .navbar-default .navbar-toggle{
+      border-color: rgba(255,255,255,0);
+    }
+    .navbar-nav li a:hover{
+      color: #E8A3BE !important;
+      text-decoration: none;
+    }
+
+    a {
+      color: black;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #E8A3BE;
+    }
+
+    #sortiment {
+      font-family: "Playfair Display";
+      font-weight: 400;
+      font-size: 14px;
+      margin-top: 20px;
+      border-radius: 0px;
+      border: 0.25px solid black;
+    }
+
+    #sortiment_text {
+      padding: 100px !important;
+      height: 100%;
+      margin: auto;
+    }
+
+    #cakes {
+      padding-bottom: 40px;
+    }
+
+    .img-responsive {
+      margin: auto;
+    }
+
+    .item_description h2{
+      font-family: 'Playfair Display';
+      font-size: 18px;
+      font-weight: 700;
+    }
+    #cake{
+      margin-top: 15%;
+      padding-left: 45px;
+      max-width: 95%;
+      max-height: 95%;
+    }
+    .cake {
+      padding: 0px !important;
+    }
+   #introcake {
+      padding-top: 10% !important;
+      height: 100vh;
+    }
+
+    h2 {
+      font-family: 'Playfair Display';
+      font-weight: 700;
+      font-size: 28px;
+      letter-spacing: 1px;
+    }
+    .brand {
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding: 10px;
+    }
+@media screen and (max-width: 992px) {
+    .navbar-nav li {
+      float: none;
+      display: inline-block;
+      color: white;
+    }
+
+    .navbar-nav li a{
+      padding: 10px 40px;
+      color: white !important;
+    }
+
+    #header {
+      height: 50vh;
+      padding: 0px !important;
+      background-image: url('front.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+    #cake{
+      margin-top: 0px;
+      padding-left: 0px;
+      max-width: 100%;
+      height: auto;
+    }
+    #bs-example-navbar-collapse-1 {
+      border-color: rgba(0,0,0,0);
+    }
+}
