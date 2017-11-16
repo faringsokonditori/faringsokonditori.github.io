@@ -122,14 +122,11 @@
       padding: 10px;
     }
 @media screen and (max-width: 992px) {
-    .navbar-nav li {
-      float: none;
-      display: inline-block;
-      color: white;
+    .navbar-nav {
+      margin: 0 !important;
     }
-
     .navbar-nav li a{
-      padding: 10px 40px;
+      padding: 10px 70px;
       color: white !important;
     }
 
@@ -147,6 +144,16 @@
       max-width: 100%;
       height: auto;
     }
+    
+    #introcake {
+      padding-top: 10% !important;
+      height: auto !important;
+    }
+
+    #sortiment_text {
+      padding: 15px !important;
+    }
+
     #bs-example-navbar-collapse-1 {
       border-color: rgba(0,0,0,0);
     }
